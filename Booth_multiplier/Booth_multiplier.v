@@ -1,5 +1,5 @@
 module booth_multiplier_nbit(a,b,clk,rst,out);
-parameter n = 16;
+parameter n = 8;
 input [n-1:0]a,b;
 input clk,rst;
 output reg [(2*n)-1:0]out;
